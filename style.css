@@ -1,0 +1,43 @@
+.mainlist {
+    font-family:Helvetica;
+    font-weight:bold;
+}
+hr {
+    height:3px;
+    color:black;
+    border-color:black;
+    background-color:black;
+}
+body {
+    font-family:Helvetica;
+}
+p {
+    font-family:verdana;
+    font-size:15px;
+}
+a {
+    line-height:300%;
+    border-radius:10px;
+    font-family:Helvetica;
+    border-style:solid;
+    padding:5px;
+    border-width:5px;
+    border-color:rgb(255, 88, 88);
+    margin-top:40px;
+    margin-bottom:40px;
+    color:white;
+    background-color:rgb(255, 88, 88);
+    text-decoration:none;
+}
+a:hover {
+    font-family:Helvetica;
+    border-style:solid;
+    padding:5px;
+    border-width:5px;
+    border-color:rgb(255, 125, 125);
+    margin-top:40px;
+    margin-bottom:40px;
+    color:white;
+    background-color:rgb(255, 125, 125);
+    text-decoration:none;
+}
