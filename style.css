@@ -10,34 +10,57 @@ hr {
 }
 body {
     font-family:Helvetica;
+    background-color: lightblue;
 }
 p {
     font-family:verdana;
     font-size:15px;
 }
-a {
-    line-height:300%;
-    border-radius:10px;
-    font-family:Helvetica;
-    border-style:solid;
-    padding:5px;
-    border-width:5px;
-    border-color:rgb(255, 88, 88);
-    margin-top:40px;
-    margin-bottom:40px;
-    color:white;
-    background-color:rgb(255, 88, 88);
-    text-decoration:none;
-}
+
 a:hover {
     font-family:Helvetica;
     border-style:solid;
     padding:5px;
     border-width:5px;
     border-color:rgb(255, 125, 125);
-    margin-top:40px;
-    margin-bottom:40px;
     color:white;
     background-color:rgb(255, 125, 125);
     text-decoration:none;
+}
+.main {
+    line-height:500%;
+    border-radius:10px;
+    font-family:Helvetica;
+    border-style:solid;
+    padding:7px;
+    border-width:7px;
+    border-color:rgb(255, 88, 88);
+    color:white;
+    background-color:rgb(255, 88, 88);
+    text-decoration:none
+}
+.homenot {
+    position:fixed;
+    line-height:90%;
+    border-radius:10px;
+    font-family:Helvetica;
+    border-style:solid;
+    padding:5px;
+    border-width:6px;
+    border-color:rgb(255, 88, 88);
+    color:white;
+    background-color:rgb(255, 88, 88);
+    text-decoration:none;
+}
+.favorites_size {
+    height: 15%;
+    width:15%;
+}
+h3 {
+    font-size: 150%
+}
+.smallborder {
+    margin:auto;
+    border-style:hidden;
+    width:50%
 }
